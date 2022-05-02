@@ -1,0 +1,195 @@
+#grad {
+  height: 500px;
+  background-image: linear-gradient(to right, #607682, #61869A 30%, #7ABEE4);
+}
+
+#right {
+  float: right;
+}
+
+.lower {
+  padding: 100px;
+}
+
+ul {
+    list-style-type: square;
+    display:flex;
+}
+
+li {
+    display:block;
+    margin:10px;
+}
+
+
+.bottomcolor {
+  height: 360px;
+  background-color: rgb(97, 134, 154);
+}
+
+body div {
+  border: 1px solid red;
+}
+
+.white-text {
+  color: white;
+}
+
+.img {
+  margin-left: auto;
+  height:auto;
+  width: auto;
+}
+
+.category {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16pt;
+  color: #639FBF;
+  text-align: right;
+  padding: 35px
+}
+
+.search {
+  position: absolute;
+  padding: 35px;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-size: 36pt;
+  font-weight: bold;
+  margin-left: auto;
+  color: white;
+  padding-bottom: 15pt;
+  padding-top: 60pt;
+}
+
+h2 {
+  font-family: 'Poppins';
+  font-size: 40pt;
+  font-weight: 300;
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 600;
+  margin-top: 50px;
+  text-align: left;
+}
+
+h4 {
+  font-family: 'Inter';
+  font-size: 20pt;
+  font-weight: 400;
+  color: #F1A64F;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: left;
+
+}
+
+h6 {
+  font-family: 'Inter';
+  font-size: 24pt;
+  font-weight: 300;
+  line-height: 25pt;
+  margin-top: 20%;
+  text-align: left;
+}
+.bodytext {
+  font-family: 'Inter';
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 25pt;
+  text-align: left;
+}
+
+.response {
+  font-family: 'Inter';
+  font-size: 13pt;
+  font-weight: 400;
+  color: #578BA8;
+  line-height: 25pt;
+  text-align: left;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px;
+}
+
+.left {
+  width: 50%;
+}
+
+.middle {
+  width: 40%;
+}
+
+.right {
+  width: 10%;
+}
+
+.Bannertext {
+  color: white;
+  font-family: 'Inter';
+  font-size: 20pt;
+  line-height: 38pt;
+  font-weight: 300;
+}
+
+.responsive {
+  width: 600px;
+  height: auto;
+  margin-top: 55px;
+
+}
+
+.ASLU-banner {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-start-learning {
+  border: none;
+  background-color: #F1A64F;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 500;
+  padding: 20px 28px;
+  margin-top: 10px;
+  cursor: pointer;
+  float: right;
+  display: inline-block;
+}
+
+.subscribe {
+  max-width: 80%;
+  height: auto;
+  margin-left: 20%;
+}
+
+.donation {
+  font-family: 'Inter';
+  font-size: 17pt;
+  font-weight: 300;
+  line-height: 33pt;
+  text-align: left;
+}
+
+.moreinfo {
+  font-family: 'Inter';
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 24pt;
+  color: #578BA8;
+  text-align: left;
+  margin-bottom: 20%;
+}
