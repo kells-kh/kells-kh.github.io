@@ -51,9 +51,45 @@
   padding: 100px;
 }
 
+#blueobj {
+  height: 500px;
+  background-color: #D2E9F1;
+}
+
+#right {
+  float: right;
+}
+
+#bullet {
+  list-style-type: none;
+}
+
+.lower {
+  padding: 100px;
+}
+
+#Lesson1{
+  display:inline-block;
+  margin-right:10px;
+  width:200px;
+}
+
+#username{
+  display:inline-block;
+  width:200px;
+}
+
 ul {
     list-style-type: square;
-    display:flex;
+    display: inline-block;
+    float: right;
+
+}
+
+ol {
+  list-style-type: disc;
+  color: #578BA8;
+  margin-left: 100px;
 }
 
 li {
@@ -174,6 +210,18 @@ h4 {
   margin-top: 30%;
   margin-bottom: 30px;
   text-align: left;
+
+}
+
+h5 {
+  font-family: 'Poppins';
+  font-size: 23pt;
+  font-weight: normal;
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  color: Black;
+  margin-right: ;
 
 }
 
