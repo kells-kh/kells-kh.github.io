@@ -1,6 +1,15 @@
+
 #grad {
   height: 500px;
   background-image: linear-gradient(to right, #607682, #61869A 30%, #7ABEE4);
+}
+
+#practice {
+background-color: #D2E9F1;
+height: 1500px;
+padding-top: 100px;
+padding-left: 200px;
+padding-right: 200px;
 }
 
 #right {
@@ -30,13 +39,19 @@
   margin-right: auto;
   margin-top: 11%;
   width: 40%;
-
 }
 
 #gif1 {
   height: 290px;
   float:right;
+}
 
+#gif2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 20%;
 }
 
 #donation {
@@ -51,9 +66,28 @@
   padding: 100px;
 }
 
+#search {
+  width: 60%;
+  height: 90%;
+}
+
+form.nosubmit {
+  padding-top: 20px;
+}
+
+input.nosubmit {
+  width: 260px;
+  border: 1px solid #639FBF;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
 #blueobj {
   height: 500px;
   background-color: #D2E9F1;
+  margin-bottom: 5%;
+  margin-top: 30px;
 }
 
 #right {
@@ -64,19 +98,21 @@
   list-style-type: none;
 }
 
-.lower {
-  padding: 100px;
+#intro {
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 300;
+  margin-top: 5%;
+  color: #578BA8;
 }
 
-#Lesson1{
-  display:inline-block;
-  margin-right:10px;
-  width:200px;
-}
-
-#username{
-  display:inline-block;
-  width:200px;
+#username {
+  font-family: 'Inter';
+  font-size: 16pt;
+  font-weight: 200;
+  margin-top: 5%;
+  color: #639FBF;
+  text-align: right;
 }
 
 ul {
@@ -90,21 +126,35 @@ ol {
   list-style-type: disc;
   color: #578BA8;
   margin-left: 100px;
+  font-family: 'Inter';
+  font-size: 15pt;
+  line-height: 22pt;
 }
 
 li {
-    display:block;
-    margin:10px;
+    margin:20px;
 }
 
+ol-2 {
+  list-style-type: disc;
+  color: #578BA8;
+  margin-left: 100px;
+  font-family: 'Inter';
+  font-size: 15pt;
+  line-height: 44pt;
+}
+
+
+.placeholder {
+  color: #639FBF;
+  font-family: 'Inter';
+  font-size: 14pt;
+  font-weight: 100;
+}
 
 .bottomcolor {
   height: 360px;
   background-color: rgb(97, 134, 154);
-}
-
-body div {
-  border: 1px solid red;
 }
 
 .white-text {
@@ -120,7 +170,7 @@ body div {
 .category {
   font-family: 'Inter';
   font-weight: 600;
-  font-size: 16pt;
+  font-size: 15pt;
   color: #639FBF;
   text-align: right;
   padding: 35px
@@ -176,6 +226,12 @@ body div {
   text-align: right;
 }
 
+hr {
+  height:10px;
+  border:solid;
+  margin-bottom: 50px;
+}
+
 h1 {
   font-family: 'Poppins';
   font-size: 36pt;
@@ -199,8 +255,15 @@ h3 {
   font-size: 24pt;
   font-weight: 600;
   margin-top: 50px;
-  color: #578BA8;
   text-align: left;
+}
+
+h3-1 {
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 600;
+  margin-bottom: 10%;
+  color: #578BA8;
 }
 
 h4 {
@@ -211,19 +274,22 @@ h4 {
   margin-top: 30%;
   margin-bottom: 30px;
   text-align: left;
-
 }
 
-h5 {
+.h5-1 {
   font-family: 'Poppins';
   font-size: 23pt;
   font-weight: normal;
   margin-top: 50px;
-  padding: 50px;
+  padding: 15px;
   text-align: center;
-  color: Black;
-  margin-right: ;
+}
 
+.viewlesson {
+  font-family: 'Poppins';
+  font-size: 23pt;
+  font-weight: normal;
+  color: Black;
 }
 
 h6 {
@@ -234,6 +300,47 @@ h6 {
   margin-top: 20%;
   text-align: left;
 }
+
+h6-1 {
+  font-family: 'Poppins';
+  font-size: 26pt;
+  font-weight: 500;
+  color: Black;
+}
+
+.journey1 {
+  font-family: 'Poppins';
+  font-size: 26pt;
+  font-weight: 500;
+  text-align: center;
+  color: Black;
+}
+
+.done {
+  font-family: 'Poppins';
+  font-size: 26pt;
+  font-weight: 500;
+  color: #578BA8;
+}
+
+#congrats {
+  font-family: 'Inter';
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 24pt;
+  color: #578BA8;
+  margin-bottom: 20%;
+}
+
+#congrats2 {
+  font-family: 'Inter';
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 24pt;
+  color: #578BA8;
+  cursor: pointer;
+}
+
 .bodytext {
   font-family: 'Inter';
   font-size: 13pt;
@@ -249,6 +356,7 @@ h6 {
   color: #578BA8;
   line-height: 25pt;
   text-align: left;
+  margin-bottom: 15%;
 }
 
 .column {
@@ -278,10 +386,19 @@ h6 {
 }
 
 .responsive {
-  width: 600px;
+  width: 700px;
+  margin-left: 10%;
   height: auto;
-  margin-top: 55px;
+  margin-top: 30px;
+}
 
+.checkpoint {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .ASLU-banner {
@@ -301,6 +418,77 @@ h6 {
   cursor: pointer;
   float: right;
   display: inline-block;
+}
+
+.btn-donate {
+  border: none;
+  background-color: #F1A64F;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 500;
+  padding: 20px 28px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.btn-next-lesson {
+  border: none;
+  background-color: #F1A64F;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 500;
+  padding: 20px 28px;
+  margin-top: 20%;
+  cursor: pointer;
+  float: right;
+  display: inline-block;
+}
+
+
+.btn-start-review {
+  border: none;
+  background-color: #F1A64F;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 500;
+  padding: 20px 28px;
+  margin-top: 40%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#takequiz {
+  border: none;
+  background-color: #F1A64F;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 500;
+  padding: 20px 28px;
+  margin-top: 5%;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#skipquiz {
+  border: none;
+  background-color: #D2E9F1;
+  color: #578BA8;
+  font-family: 'Poppins';
+  font-size: 24pt;
+  font-weight: 500;
+  padding: 20px 28px;
+  margin-top: 5%;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .subscribe {
@@ -335,4 +523,45 @@ h6 {
   color: white;
   margin-top: 170px;
 
+}
+
+.carousel-caption {
+  font-family: 'Inter';
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 25pt;
+  text-align: left;
+}
+
+.progress {
+  position: relative;
+}
+
+.show {
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+/* unvisited link */
+a:link {
+  color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
 }
