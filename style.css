@@ -2,6 +2,57 @@
 #grad {
   height: 500px;
   background-image: linear-gradient(to right, #607682, #61869A 30%, #7ABEE4);
+  margin-top: 1%;
+}
+
+.orangebg {
+  background-color: #FFEDCE;
+  height: 540px;
+}
+
+.dropdown {
+  color: #639FBF;
+}
+
+.dropdown-content {
+  color: #578BA8;
+}
+
+.letter {
+  background-image: linear-gradient(to right, #4F95BB, #60B0DC 60%);
+  width:34px;
+  height:34px;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+  font-family: 'Poppins';
+}
+
+.btn-group-vertical button {
+  background-color: transparent; /* Green background */
+  border: none; /* Green border */
+  color: #578BA8; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  text-align:left;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.btn-group-vertical button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-vertical button:hover {
+  background-color: #D2E9F1;
+}
+
+.dropdown-divider {
+  width: 350px;
+  
 }
 
 #practice {
@@ -43,7 +94,7 @@ padding-right: 200px;
 
 #gif1 {
   height: 290px;
-  float:right;
+  margin-top: 25%;
 }
 
 #gif2 {
@@ -173,7 +224,7 @@ ol-2 {
   font-size: 15pt;
   color: #639FBF;
   text-align: right;
-  padding: 35px
+  padding: 35px;
 }
 
 .search {
@@ -254,7 +305,7 @@ h3 {
   font-family: 'Poppins';
   font-size: 24pt;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 25%;
   text-align: left;
 }
 
